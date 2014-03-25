@@ -133,7 +133,7 @@ class ZipStream extends \Controller
         }
 
         // Build template with information.
-        $objTemplate         = new \FrontendTemplate('show_zipdown');
+        $objTemplate         = new \FrontendTemplate('zipstream');
         $objTemplate->link   = $linkString;
         $objTemplate->linkId = $linkId;
         $objTemplate->href   = \Environment::get('request') . (($GLOBALS['TL_CONFIG']['disableAlias'] || strpos(\Environment::get('request'), '?') !== false) ? '&amp;' : '?') . 'zipstream=' . $linkId;

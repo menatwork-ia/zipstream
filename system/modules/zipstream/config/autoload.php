@@ -32,5 +32,5 @@ ClassLoader::addClasses(array
  */
 TemplateLoader::addFiles(array
 (
-	'show_zipdown' => 'system/modules/zipstream/templates',
+	'zipstream' => 'system/modules/zipstream/templates',
 ));
